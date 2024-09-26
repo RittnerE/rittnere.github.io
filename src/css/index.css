@@ -1,0 +1,32 @@
+.answer-1 {
+    text-decoration: none;
+    padding: 1rem;
+    border: #2b6880 1px solid;
+    display: inline-block;
+    -webkit-box-shadow: 3px 3px 8px 2px #2b6880;
+    box-shadow: 3px 3px 8px 2px #2b6880;
+    border-radius: 5px;
+    background: #2791bb;
+    color: #fff!important;
+}
+.answer-2 {
+    text-decoration: none;
+    padding: 1rem;
+    border: #bb2753 1px solid;
+    display: inline-block;
+    -webkit-box-shadow: 3px 3px 8px 2px #94173c;
+    box-shadow: 3px 3px 8px 2px #94173c;
+    border-radius: 5px;
+    background: #bb2753;
+    color: #fff!important;
+}
+.question {
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    -webkit-box-shadow: 3px 3px 8px 2px #2b8076;
+    box-shadow: 3px 3px 8px 2px #2b8076;
+    border-radius: 5px;
+    background: #30afa0;
+    color: #fff!important;
+}
