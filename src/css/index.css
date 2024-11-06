@@ -30,3 +30,9 @@
     background: #30afa0;
     color: #fff!important;
 }
+.w-33 {
+    width: 33%;
+}
+.row {
+    grid-gap: 10px;
+}
