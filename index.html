@@ -18,11 +18,21 @@
 
 <body>
 <div class="container mt-5 px-5">
-    <div class="titel mb-5"><h1>Gesprächsführung</h1></div>
-    <div class="main" id="chatbox">
-        <div id="question" class="frage h4 mb-4 question w-100">Bat ray Antarctic cod, "great white shark sauger mud catfish." Gudgeon yellowfin croaker chimaera sabertooth nurseryfish Dolly Varden trout burrowing goby </div>
-        <div class="mb-5 img w-100 bg-light" style="height: 500px"></div>
-        <div id="answers" class="row"></div>
+
+    <!-- Einleitungstext und Startknopf -->
+    <div id="introduction" class="text-center text-white">
+        <h1>KOBRA</h1>
+        <p><h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</h4></p>
+        <button id="startButton" class="btn btn-primary btn-start mx-auto px-4 py-2"><h2>START</h2></button>
+    </div>
+
+    <!-- Bereich für Fragen und Antworten -->
+    <div id="questionSection" style="display: none;">
+        <div class="titel text-center text-white mb-5"><h1>Bayesh</h1></div>
+        <div class="main" id="chatbox">
+            <h3 id="question" class="frage text-center mt-5 mb-4 question w-100"></h3>
+            <div id="answers" class="row"></div>
+        </div>
     </div>
 </div>
 
