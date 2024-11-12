@@ -45,7 +45,7 @@ function displayQuestion(questionId, flowchart) {
     questionObj.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerText = answer.text;
-        button.classList.add("answer-1", "w-33", "mb-5", "col");
+        button.classList.add("answer-1", "mb-0", "mb-md-5", "col-12", "col-md");
         button.onclick = () => displayQuestion(answer.nextId, flowchart);
         answersDiv.appendChild(button);
     });
